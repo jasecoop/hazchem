@@ -2,25 +2,64 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: default
+layout: checkout
 ---
 
-<div class="fixed w-100 vh-100 b--solid bw5 tc v-mid pointer-events-none z-5"></div>
+<div class="pa5 bg-grey">
 
-<div class="pa5">
+  <div class="w-100 mb5 overflow-hidden tc">
 
-  <h1>Shipping Address</h1>
+    <ul class="progressbar pa0">
+      <li>Basket</li>
+      <li class="active">Shipping</li>
+      <li>Payment</li>
+      <li>Confirmation</li>
+    </ul>
+  </div>
 
-  <input class="w-100 mb3 b--solid bw3 bg-orange pa3 f3 black" type="text" placeholder="Name">
-  <input class="w-100 mb3 b--solid bw3 bg-orange pa3 f3 black" type="text" placeholder="Address 1">
-  <input class="w-100 mb3 b--solid bw3 bg-orange pa3 f3 black" type="text" placeholder="Address 2">
-  <input class="w-100 mb3 b--solid bw3 bg-orange pa3 f3 black" type="text" placeholder="Town/City">
-  <input class="w-100 mb3 b--solid bw3 bg-orange pa3 f3 black" type="text" placeholder="County">
-  <input class="w-100 mb3 b--solid bw3 bg-orange pa3 f3 black" type="text" placeholder="Postcode">
 
-  <a href="/payment.html" class="btn w-100 bg-black orange no-underline pt3 pb3 tc dib f3 ttu">
-    Continue to payment
-  </a>
+  <div class="demo-card-wide mdl-card mdl-shadow--2dp mx-auto">
+
+    <div class="mdl-card__title">
+      <h2 class="mdl-card__title-text">Shipping</h2>
+    </div>
+
+    <div class="mdl-card__supporting-text">
+
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" id="name">
+        <label class="mdl-textfield__label" for="name">Name</label>
+      </div>
+
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" id="name">
+        <label class="mdl-textfield__label" for="name">Address 1</label>
+      </div>
+
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" id="name">
+        <label class="mdl-textfield__label" for="name">Address 2</label>
+      </div>
+
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" id="name">
+        <label class="mdl-textfield__label" for="name">City/Town</label>
+      </div>
+
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" id="name">
+        <label class="mdl-textfield__label" for="name">Post Code / Zipcode</label>
+      </div>
+
+    </div>
+
+    <div class="mdl-card__actions mdl-card--border">
+      <a href="/payment.html" class="mdl-button mdl-button--raised mdl-button--colored">
+        Continue to Payment
+      </a>
+    </div>
+
+  </div>
 
 </div>
 

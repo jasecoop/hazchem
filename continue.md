@@ -2,27 +2,59 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: default
+layout: checkout
 ---
 
-<div class="fixed w-100 vh-100 b--solid bw5 tc v-mid pointer-events-none z-5"></div>
+<div class="pa5 bg-grey">
 
-<div class="pa5 tc">
+  <div class="w-100 mb5 overflow-hidden tc">
 
-  <h1>Sorry — 003 is now sold out</h1>
-  <h2>Your credit card has not been charged for this transaction</h2>
+    <ul class="progressbar pa0">
+      <li>Basket</li>
+      <li>Shipping</li>
+      <li>Payment</li>
+      <li class="active">Confirmation</li>
+    </ul>
 
-  <div class="f3 mb5">
-    Hazchem releases limited edition pieces and they go fast. Leave your email address and we'll notify you before anyone else on our next drop.
   </div>
 
-  <form name="email" method="POST" data-netlify="true">
 
-    <input class="w-100 mb3 b--solid bw3 bg-orange pa3 f3 black" type="text" placeholder="Your email" name="email">
-    <button type="submit" class="bt-0 bb-0 bl-0 br-0 btn w-100 bg-black orange no-underline pt3 pb3 tc dib f3 ttu">Submit</button>
+  <div class="demo-card-wide mdl-card mdl-shadow--2dp mx-auto">
 
-  </form>
+
+    <div class="mdl-card__supporting-text">
+
+
+      <h4>Sorry — 003 is now sold out</h4>
+      <p>Your credit card has not been charged for this transaction</p>
+
+      <p>
+        Hazchem releases limited edition pieces and they go fast. Leave your email address and we'll notify you before anyone else on our next drop.
+      </p>
+
+      <form name="email" method="POST" data-netlify="true">
+
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input class="mdl-textfield__input" type="text" id="email" name="email">
+          <label class="mdl-textfield__label" for="email">Your email</label>
+        </div>
+
+        <button type="submit" class="mdl-button mdl-button--raised mdl-button--colored">Submit</button>
+
+      </form>
+
+    </div>
+
+
+  </div>
+
 </div>
+
+
+
+
+
+
 
 
 
