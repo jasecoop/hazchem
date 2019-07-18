@@ -26,7 +26,7 @@ layout: checkout
     </div>
 
     <div class="mdl-card__menu">
-      <img class="ma0" width="50" src="{{ '/assets/images/cc.png' | relative_url }}" />
+      <img class="ma0" width="60" src="{{ '/assets/images/cc.png' | relative_url }}" />
     </div>
 
     <div class="mdl-card__supporting-text">
