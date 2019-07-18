@@ -5,7 +5,7 @@
 layout: checkout
 ---
 
-<div class="pa5 bg-grey">
+<div class="pa2 bg-grey">
 
   <div class="w-100 mb5 overflow-hidden tc">
 
